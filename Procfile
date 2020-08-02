@@ -1,0 +1,1 @@
+web: gunicorn SentimentAndSummarizerAnalyzer.wsgi --log-file -
