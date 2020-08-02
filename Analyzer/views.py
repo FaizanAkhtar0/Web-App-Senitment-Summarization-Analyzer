@@ -1,4 +1,5 @@
 import spacy
+import en_core_web_md
 from spacy import displacy
 from django.shortcuts import render
 
@@ -10,7 +11,7 @@ from Analyzer.models_lib.summarization_analyzer import SummarizationAnalyzer
 
 sentiment_analyzer = SentimentAnalyzer()
 summarize_analyzer = SummarizationAnalyzer()
-nlp_spacy = spacy.load('en_core_web_md')
+nlp_spacy = en_core_web_md.load()
 
 
 def home(request):
