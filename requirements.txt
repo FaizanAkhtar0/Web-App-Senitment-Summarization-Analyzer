@@ -9,7 +9,7 @@ colorama==0.4.3
 cymem==2.0.3
 decorator==4.4.2
 Django==3.0.8
-https://github.com/explosion/spacy-models/archive/en_core_web_md-2.3.1.tar.gz
+https://github.com/explosion/spacy-models/releases/download/en_core_web_md-2.3.1/en_core_web_md-2.3.1.tar.gz
 idna==2.10
 ipython==7.17.0
 ipython-genutils==0.2.0
