@@ -25,7 +25,7 @@ SECRET_KEY = '0flkb22-vdy^ttn@toss4+c8!!b6u+etn5gvu(y=d!vsf*b_s1'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['data-lover-app.herokuapp.com']
+ALLOWED_HOSTS = ['data-lover-app.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
